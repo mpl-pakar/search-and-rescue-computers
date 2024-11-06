@@ -1,0 +1,3614 @@
+@keyframes showAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes showAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes showAnimation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.show-anim {
+    animation: showAnimation 1s linear 1 forwards;
+    -webkit-animation: showAnimation 1s linear 1 forwards;
+    -moz-animation: showAnimation 1s linear 1 forwards;
+}
+
+@keyframes hideAnimation {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes hideAnimation {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes hideAnimation {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.hide-anim {
+    animation: hideAnimation 1s linear 1 forwards;
+    -webkit-animation: hideAnimation 1s linear 1 forwards;
+    -moz-animation: hideAnimation 1s linear 1 forwards;
+}
+
+@keyframes hativaSymbolLarger {
+    0% {
+        width: 3rem;
+        top: 1rem;
+        left: 1rem;
+    } 
+    100% {
+        width: 10rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.hativa-larger {
+    animation: hativaSymbolLarger 2s ease 0s 1 forwards;
+    -webkit-animation: hativaSymbolLarger 2s ease 0s 1 forwards;
+    -moz-animation: hativaSymbolLarger 2s ease 0s 1 forwards;
+}
+
+@keyframes hativaSymbolSmaller {
+    0% {
+        width: 10rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    } 
+    100% {
+        transform: translate(0%, 0%);
+        width: 3rem;
+        top: 1rem;
+        left: 1rem;
+    }
+}
+
+.hativa-smaller {
+    animation: hativaSymbolSmaller 2s ease 0s 1 forwards;
+    -webkit-animation: hativaSymbolSmaller 2s ease 0s 1 forwards;
+    -moz-animation: hativaSymbolSmaller 2s ease 0s 1 forwards;
+}
+
+@keyframes tlAnimPg1ToPg2 {
+    0% {
+        top: -3rem;
+        left: 650rem;
+        height: 37rem;
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.2;
+    }
+    40% {
+        opacity: 1;
+    }
+    50% {
+        top: 5rem;
+        height: 17rem;
+        left: 284rem;
+        opacity: 1;
+    }
+    60% {
+        top: 5rem;
+        height: 17rem;
+        left: 284rem;
+        opacity: 1;
+    }
+    100% {
+        top: 2rem;
+        height: 17rem;
+        left: 284rem;
+        opacity: 1;
+    }
+}
+
+.tl-page-1 {
+    top: -3rem;
+    left: 650rem;
+    height: 37rem;
+    position: relative;
+    opacity: 0;
+    animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg2ToPg3 {
+    0% {
+        top: 2rem;
+        height: 17rem;
+        left: 284rem;
+        opacity: 1;
+    }
+    40% {
+        opacity: 1;
+        top: 5rem;
+        height: 17rem;
+        left: 284rem;
+    }
+    50% {
+        top: 5rem;
+        height: 17rem;
+        left: 284rem;
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    95% {
+        opacity: 0.2;
+    }
+    100% {
+        
+        top: -3rem;
+        left: 650rem;
+        height: 37rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-2 {
+    top: 2rem;
+    height: 17rem;
+    left: 284rem;
+    position: relative;
+    opacity: 1;
+    animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg3ToPg4 {
+    0% {
+        top: -3rem;
+        left: 650rem;
+        height: 37rem;
+        opacity: 0;
+    }
+    20% {
+        top: 5rem;
+        height: 17rem;
+        left: 284rem;
+        opacity: 1;
+    }
+    25% {
+        top: 5rem;
+        height: 17rem;
+        left: 284rem;
+        opacity: 1;
+    }
+    70% {
+        top: 5rem;
+        left: 25rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    80% {
+        top: 5rem;
+        left: 25rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    100% {
+        top: -3rem;
+        left: 73rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-3 {
+    top: -3rem;
+    left: 650rem;
+    height: 37rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+    -webkit-animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+    -moz-animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+}
+
+@keyframes tlAnimPg4ToPg5 {
+    0% {
+        top: -3rem;
+        left: 73rem;
+        height: 33rem;
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.3;
+    }
+    25% {
+        top: 5rem;
+        left: 24rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    30% {
+        top: 5rem;
+        left: 24rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    50% {
+        top: 5rem;
+        left: 52rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    65% {
+        top: 5rem;
+        left: 52rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.3;
+    }
+    100% {
+        top: -3rem;
+        left: 128rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-4 {
+    top: -3rem;
+    left: 73rem;
+    height: 33rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg5ToPg6 {
+    0% {
+        top: -3rem;
+        left: 127rem;
+        height: 33rem;
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.3;
+    }
+    25% {
+        top: 5rem;
+        left: 53rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    30% {
+        top: 5rem;
+        left: 53rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    50% {
+        top: 5rem;
+        left: 80rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    65% {
+        top: 5rem;
+        left: 80rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.3;
+    }
+    100% {
+        top: -3rem;
+        left: 182rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-5 {
+    top: -3rem;
+    left: 127rem;
+    height: 33rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg6ToPg7 {
+    0% {
+        top: -3rem;
+        left: 182rem;
+        height: 33rem;
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.3;
+    }
+    25% {
+        top: 5rem;
+        left: 80rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    30% {
+        top: 5rem;
+        left: 80rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    50% {
+        top: 5rem;
+        left: 109rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    65% {
+        top: 5rem;
+        left: 109rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.3;
+    }
+    100% {
+        top: -3rem;
+        left: 235rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-6 {
+    top: -3rem;
+    left: 182rem;
+    height: 33rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg7ToPg8 {
+    0% {
+        top: -3rem;
+        left: 235rem;
+        height: 33rem;
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.3;
+    }
+    25% {
+        top: 5rem;
+        left: 109rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    30% {
+        top: 5rem;
+        left: 109rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    50% {
+        top: 5rem;
+        left: 136rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    65% {
+        top: 5rem;
+        left: 136rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.3;
+    }
+    100% {
+        top: -3rem;
+        left: 290rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-7 {
+    top: -3rem;
+    left: 235rem;
+    height: 33rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg8ToPg9 {
+    0% {
+        top: -3rem;
+        left: 290rem;
+        height: 33rem;
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.3;
+    }
+    35% {
+        top: 5rem;
+        left: 136rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    40% {
+        top: 5rem;
+        left: 136rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    60% {
+        top: 5rem;
+        left: 164rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    75% {
+        top: 5rem;
+        left: 164rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    85% {
+        opacity: 0.3;
+    }
+    100% {
+        top: -3rem;
+        left: 344rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-8 {
+    top: -3rem;
+    left: 344rem;
+    height: 33rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg9ToPg10 {
+    0% {
+        top: -3rem;
+        left: 344rem;
+        height: 33rem;
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.3;
+    }
+    25% {
+        top: 5rem;
+        left: 164rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    30% {
+        top: 5rem;
+        left: 164rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    50% {
+        top: 5rem;
+        left: 191rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    65% {
+        top: 5rem;
+        left: 191rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.3;
+    }
+    100% {
+        top: -3rem;
+        left: 397rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+
+.tl-page-9 {
+    top: -3rem;
+    left: 344rem;
+    height: 33rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg10ToPg11 {
+    0% {
+        top: -3rem;
+        left: 397rem;
+        height: 33rem;
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.3;
+    }
+    35% {
+        top: 5rem;
+        left: 191rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    40% {
+        top: 5rem;
+        left: 191rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    60% {
+        top: 5rem;
+        left: 201rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    75% {
+        top: 5rem;
+        left: 201rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    85% {
+        opacity: 0.3;
+    }
+    100% {
+        top: -3rem;
+        left: 415rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-10 {
+    top: -3rem;
+    left: 397rem;
+    height: 33rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg11ToPg12 {
+    0% {
+        top: -3rem;
+        left: 415rem;
+        height: 33rem;
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.3;
+    }
+    25% {
+        top: 5rem;
+        left: 201rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    30% {
+        top: 5rem;
+        left: 201rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    50% {
+        top: 5rem;
+        left: 229rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    65% {
+        top: 5rem;
+        left: 229rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.3;
+    }
+    100% {
+        top: -3rem;
+        left: 470rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-11 {
+    top: -3rem;
+    left: 415rem;
+    height: 33rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg14ToPg15 {
+    0% {
+        top: -3rem;
+        left: 470rem;
+        height: 33rem;
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.3;
+    }
+    20% {
+        top: 5rem;
+        left: 229rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    27% {
+        top: 5rem;
+        left: 229rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    60% {
+        top: 5rem;
+        left: -2rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    70% {
+        top: 5rem;
+        left: -2rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.3;
+    }
+    100% {
+        top: -3rem;
+        left: 19rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-14 {
+    top: -3rem;
+    left: 470rem;
+    height: 33rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+}
+
+@keyframes tlAnimPg15ToPg16 {
+    0% {
+        top: -3rem;
+        left: 19rem;
+        height: 33rem;
+        opacity: 0;
+    }
+    5% {
+        opacity: 0.3;
+    }
+    20% {
+        top: 5rem;
+        left: -2rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    27% {
+        top: 5rem;
+        left: -2rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    60% {
+        top: 5rem;
+        left: 256rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    70% {
+        top: 5rem;
+        left: 256rem;
+        height: 17rem;
+        opacity: 1;
+    }
+    90% {
+        opacity: 0.3;
+    }
+    100% {
+        top: -3rem;
+        left: 524rem;
+        height: 33rem;
+        opacity: 0;
+    }
+}
+
+.tl-page-15 {
+    top: -3rem;
+    left: 19rem;
+    height: 33rem;
+    opacity: 0;
+    position: relative;
+    animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+    -webkit-animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+    -moz-animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+}
+
+@media only screen and (max-width: 1500px) {
+    
+    @keyframes tlAnimPg1ToPg2 {
+        0% {
+            top: -3rem;
+            left: 656rem;
+            height: 37rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.2;
+        }
+        40% {
+            opacity: 1;
+        }
+        50% {
+            top: 5rem;
+            height: 17rem;
+            left: 291rem;
+            opacity: 1;
+        }
+        60% {
+            top: 5rem;
+            height: 17rem;
+            left: 291rem;
+            opacity: 1;
+        }
+        100% {
+            top: 2rem;
+            height: 17rem;
+            left: 291rem;
+            opacity: 1;
+        }
+    }
+    
+    .tl-page-1 {
+        top: -3rem;
+        left: 656rem;
+        height: 37rem;
+        position: relative;
+        opacity: 0;
+        animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg2ToPg3 {
+        0% {
+            top: 2rem;
+            height: 17rem;
+            left: 291rem;
+            opacity: 1;
+        }
+        40% {
+            opacity: 1;
+            top: 5rem;
+            height: 17rem;
+            left: 291rem;
+        }
+        50% {
+            top: 5rem;
+            height: 17rem;
+            left: 291rem;
+            opacity: 1;
+        }
+        60% {
+            opacity: 1;
+        }
+        95% {
+            opacity: 0.2;
+        }
+        100% {
+            top: -3rem;
+            left: 656rem;
+            height: 37rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-2 {
+        top: 2rem;
+        height: 17rem;
+        left: 291rem;
+        position: relative;
+        opacity: 1;
+        animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg3ToPg4 {
+        0% {
+            top: -3rem;
+            left: 656rem;
+            height: 37rem;
+            opacity: 0;
+        }
+        20% {
+            top: 5rem;
+            height: 17rem;
+            left: 291rem;
+            opacity: 1;
+        }
+        25% {
+            top: 5rem;
+            height: 17rem;
+            left: 291rem;
+            opacity: 1;
+        }
+        70% {
+            top: 5rem;
+            left: 28rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        80% {
+            top: 5rem;
+            left: 28rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        100% {
+            top: -3rem;
+            left: 78rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-3 {
+        top: -3rem;
+        left: 656rem;
+        height: 37rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+        -webkit-animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+        -moz-animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg4ToPg5 {
+        0% {
+            top: -3rem;
+            left: 78rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 5rem;
+            left: 28rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 5rem;
+            left: 28rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 5rem;
+            left: 56rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 5rem;
+            left: 56rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 131rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-4 {
+        top: -3rem;
+        left: 78rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg5ToPg6 {
+        0% {
+            top: -3rem;
+            left: 131rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 5rem;
+            left: 56rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 5rem;
+            left: 56rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 5rem;
+            left: 84rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 5rem;
+            left: 84rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 186rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-5 {
+        top: -3rem;
+        left: 131rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg6ToPg7 {
+        0% {
+            top: -3rem;
+            left: 186rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 5rem;
+            left: 84rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 5rem;
+            left: 84rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 5rem;
+            left: 112rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 5rem;
+            left: 112rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 239rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-6 {
+        top: -3rem;
+        left: 186rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg7ToPg8 {
+        0% {
+            top: -3rem;
+            left: 239rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 5rem;
+            left: 112rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 5rem;
+            left: 112rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 5rem;
+            left: 139rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 5rem;
+            left: 139rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 293rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-7 {
+        top: -3rem;
+        left: 239rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg8ToPg9 {
+        0% {
+            top: -3rem;
+            left: 293rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        10% {
+            opacity: 0.3;
+        }
+        35% {
+            top: 5rem;
+            left: 139rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        40% {
+            top: 5rem;
+            left: 139rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 5rem;
+            left: 167rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        75% {
+            top: 5rem;
+            left: 167rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        85% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 348rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-8 {
+        top: -3rem;
+        left: 293rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg9ToPg10 {
+        0% {
+            top: -3rem;
+            left: 348rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 5rem;
+            left: 167rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 5rem;
+            left: 167rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 5rem;
+            left: 195rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 5rem;
+            left: 195rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 401rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    
+    .tl-page-9 {
+        top: -3rem;
+        left: 348rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg10ToPg11 {
+        0% {
+            top: -3rem;
+            left: 401rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        10% {
+            opacity: 0.3;
+        }
+        35% {
+            top: 5rem;
+            left: 195rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        40% {
+            top: 5rem;
+            left: 195rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 5rem;
+            left: 205rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        75% {
+            top: 5rem;
+            left: 205rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        85% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 421rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-10 {
+        top: -3rem;
+        left: 401rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg11ToPg12 {
+        0% {
+            top: -3rem;
+            left: 421rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 5rem;
+            left: 205rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 5rem;
+            left: 205rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 5rem;
+            left: 232rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 5rem;
+            left: 232rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 475rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-11 {
+        top: -3rem;
+        left: 421rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg14ToPg15 {
+        0% {
+            top: -3rem;
+            left: 475rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        20% {
+            top: 5rem;
+            left: 232rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        27% {
+            top: 5rem;
+            left: 232rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 5rem;
+            left: 0rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        70% {
+            top: 5rem;
+            left: 0rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 23rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-14 {
+        top: -3rem;
+        left: 475rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg15ToPg16 {
+        0% {
+            top: -3rem;
+            left: 23rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        20% {
+            top: 5rem;
+            left: 0rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        27% {
+            top: 5rem;
+            left: 0rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 5rem;
+            left: 260rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        70% {
+            top: 5rem;
+            left: 260rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 527rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-15 {
+        top: -3rem;
+        left: 23rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    @keyframes tlAnimPg1ToPg2 {
+        0% {
+            top: -2rem;
+            left: 659rem;
+            height: 37rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.2;
+        }
+        40% {
+            opacity: 1;
+        }
+        50% {
+            top: 6rem;
+            height: 17rem;
+            left: 294rem;
+            opacity: 1;
+        }
+        60% {
+            top: 6rem;
+            height: 17rem;
+            left: 294rem;
+            opacity: 1;
+        }
+        100% {
+            top: 2rem;
+            height: 17rem;
+            left: 294rem;
+            opacity: 1;
+        }
+    }
+    
+    .tl-page-1 {
+        top: -2rem;
+        left: 659rem;
+        height: 37rem;
+        position: relative;
+        opacity: 0;
+        animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg2ToPg3 {
+        0% {
+            top: 2rem;
+            height: 17rem;
+            left: 294rem;
+            opacity: 1;
+        }
+        40% {
+            opacity: 1;
+            top: 6rem;
+            height: 17rem;
+            left: 294rem;
+        }
+        50% {
+            top: 6rem;
+            height: 17rem;
+            left: 294rem;
+            opacity: 1;
+        }
+        60% {
+            opacity: 1;
+        }
+        95% {
+            opacity: 0.2;
+        }
+        100% {
+            top: -2rem;
+            left: 659rem;
+            height: 37rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-2 {
+        top: 2rem;
+        height: 17rem;
+        left: 294rem;
+        position: relative;
+        opacity: 1;
+        animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg3ToPg4 {
+        0% {
+            top: -2rem;
+            left: 659rem;
+            height: 37rem;
+            opacity: 0;
+        }
+        20% {
+            top: 6rem;
+            height: 17rem;
+            left: 294rem;
+            opacity: 1;
+        }
+        25% {
+            top: 6rem;
+            height: 17rem;
+            left: 294rem;
+            opacity: 1;
+        }
+        70% {
+            top: 6rem;
+            left: 32rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        80% {
+            top: 6rem;
+            left: 32rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        100% {
+            top: -2rem;
+            left: 81rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-3 {
+        top: -2rem;
+        left: 659rem;
+        height: 37rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+        -webkit-animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+        -moz-animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg4ToPg5 {
+        0% {
+            top: -2rem;
+            left: 81rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 6rem;
+            left: 32rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 6rem;
+            left: 32rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 6rem;
+            left: 60rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 6rem;
+            left: 60rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -2rem;
+            left: 134rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-4 {
+        top: -2rem;
+        left: 81rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg5ToPg6 {
+        0% {
+            top: -2rem;
+            left: 134rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 6rem;
+            left: 60rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 6rem;
+            left: 60rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 6rem;
+            left: 88rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 6rem;
+            left: 88rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -2rem;
+            left: 189rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-5 {
+        top: -3rem;
+        left: 134rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg6ToPg7 {
+        0% {
+            top: -2rem;
+            left: 189rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 6rem;
+            left: 88rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 6rem;
+            left: 88rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 6rem;
+            left: 116rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 6rem;
+            left: 116rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -2rem;
+            left: 243rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-6 {
+        top: -2rem;
+        left: 189rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg7ToPg8 {
+        0% {
+            top: -2rem;
+            left: 243rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 6rem;
+            left: 116rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 6rem;
+            left: 116rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 6rem;
+            left: 144rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 6rem;
+            left: 144rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -2rem;
+            left: 297rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-7 {
+        top: -2rem;
+        left: 243rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg8ToPg9 {
+        0% {
+            top: -2rem;
+            left: 297rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        10% {
+            opacity: 0.3;
+        }
+        35% {
+            top: 6rem;
+            left: 144rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        40% {
+            top: 6rem;
+            left: 144rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 6rem;
+            left: 171rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        75% {
+            top: 6rem;
+            left: 171rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        85% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -2rem;
+            left: 352rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-8 {
+        top: -2rem;
+        left: 297rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg9ToPg10 {
+        0% {
+            top: -2rem;
+            left: 352rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 6rem;
+            left: 171rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 6rem;
+            left: 171rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 6rem;
+            left: 199rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 6rem;
+            left: 199rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -2rem;
+            left: 405rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    
+    .tl-page-9 {
+        top: -3rem;
+        left: 352rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg10ToPg11 {
+        0% {
+            top: -2rem;
+            left: 405rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        10% {
+            opacity: 0.3;
+        }
+        35% {
+            top: 6rem;
+            left: 199rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        40% {
+            top: 6rem;
+            left: 199rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 6rem;
+            left: 209rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        75% {
+            top: 6rem;
+            left: 209rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        85% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -2rem;
+            left: 423rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-10 {
+        top: -2rem;
+        left: 405rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg11ToPg12 {
+        0% {
+            top: -2rem;
+            left: 423rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 6rem;
+            left: 209rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 6rem;
+            left: 209rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 6rem;
+            left: 236rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 6rem;
+            left: 236rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -2rem;
+            left: 478rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-11 {
+        top: -2rem;
+        left: 423rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg14ToPg15 {
+        0% {
+            top: -3rem;
+            left: 478rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        20% {
+            top: 5rem;
+            left: 236rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        27% {
+            top: 5rem;
+            left: 236rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 5rem;
+            left: 5rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        70% {
+            top: 5rem;
+            left: 5rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -3rem;
+            left: 27rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-14 {
+        top: -2rem;
+        left: 478rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg15ToPg16 {
+        0% {
+            top: -2rem;
+            left: 27rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        20% {
+            top: 6rem;
+            left: 5rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        27% {
+            top: 6rem;
+            left: 5rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 6rem;
+            left: 264rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        70% {
+            top: 6rem;
+            left: 264rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: -2rem;
+            left: 532rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-15 {
+        top: -2rem;
+        left: 27rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    
+    @keyframes tlAnimPg1ToPg2 {
+        0% {
+            top: 0rem;
+            left: 662rem;
+            height: 37rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.2;
+        }
+        40% {
+            opacity: 1;
+        }
+        50% {
+            top: 7rem;
+            left: 297rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 7rem;
+            left: 297rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        100% {
+            top: 2rem;
+            left: 297rem;
+            height: 17rem;
+            opacity: 1;
+        }
+    }
+    
+    .tl-page-1 {
+        top: 0rem;
+        left: 662rem;
+        height: 37rem;
+        position: relative;
+        opacity: 0;
+        animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg2ToPg3 {
+        0% {
+            top: 2rem;
+            height: 17rem;
+            left: 297rem;
+            opacity: 1;
+        }
+        40% {
+            opacity: 1;
+            top: 7rem;
+            height: 17rem;
+            left: 297rem;
+        }
+        50% {
+            top: 7rem;
+            height: 17rem;
+            left: 297rem;
+            opacity: 1;
+        }
+        60% {
+            opacity: 1;
+        }
+        95% {
+            opacity: 0.2;
+        }
+        100% {
+            top: 0rem;
+            left: 662rem;
+            height: 37rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-2 {
+        top: 2rem;
+        height: 17rem;
+        left: 297rem;
+        position: relative;
+        opacity: 1;
+        animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg3ToPg4 {
+        0% {
+            top: 0rem;
+            left: 662rem;
+            height: 37rem;
+            opacity: 0;
+        }
+        20% {
+            top: 7rem;
+            left: 297rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        25% {
+            top: 7rem;
+            left: 297rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        70% {
+            top: 7rem;
+            left: 35rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        80% {
+            top: 7rem;
+            left: 35rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        100% {
+            top: 0rem;
+            left: 84rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-3 {
+        top: 0rem;
+        left: 662rem;
+        height: 37rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+        -webkit-animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+        -moz-animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg4ToPg5 {
+        0% {
+            top: 0rem;
+            left: 84rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 7rem;
+            left: 35rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 7rem;
+            left: 35rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 7rem;
+            left: 63rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 7rem;
+            left: 63rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 137rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-4 {
+        top: 0rem;
+        left: 84rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg5ToPg6 {
+        0% {
+            top: 0rem;
+            left: 138rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 7rem;
+            left: 61rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 7rem;
+            left: 61rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 7rem;
+            left: 91rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 7rem;
+            left: 91rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 192rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-5 {
+        top: 0rem;
+        left: 138rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg6ToPg7 {
+        0% {
+            top: 0rem;
+            left: 192rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 7rem;
+            left: 91rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 7rem;
+            left: 91rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 7rem;
+            left: 119rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 7rem;
+            left: 119rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 246rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-6 {
+        top: 0rem;
+        left: 191rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg7ToPg8 {
+        0% {
+            top: 0rem;
+            left: 246rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 7rem;
+            left: 119rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 7rem;
+            left: 119rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 7rem;
+            left: 147rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 7rem;
+            left: 147rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 300rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-7 {
+        top: 0rem;
+        left: 246rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg8ToPg9 {
+        0% {
+            top: 0rem;
+            left: 300rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        10% {
+            opacity: 0.3;
+        }
+        35% {
+            top: 7rem;
+            left: 147rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        40% {
+            top: 7rem;
+            left: 147rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 7rem;
+            left: 175rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        75% {
+            top: 7rem;
+            left: 175rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        85% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 355rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-8 {
+        top: 0rem;
+        left: 300rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg9ToPg10 {
+        0% {
+            top: 0rem;
+            left: 355rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 7rem;
+            left: 175rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 7rem;
+            left: 175rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 7rem;
+            left: 202rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 7rem;
+            left: 202rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 408rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    
+    .tl-page-9 {
+        top: 0rem;
+        left: 355rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg10ToPg11 {
+        0% {
+            top: 0rem;
+            left: 408rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        10% {
+            opacity: 0.3;
+        }
+        35% {
+            top: 7rem;
+            left: 202rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        40% {
+            top: 7rem;
+            left: 202rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 7rem;
+            left: 212rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        75% {
+            top: 7rem;
+            left: 212rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        85% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 426rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-10 {
+        top: 0rem;
+        left: 408rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg11ToPg12 {
+        0% {
+            top: 0rem;
+            left: 426rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 7rem;
+            left: 212rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 7rem;
+            left: 212rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 7rem;
+            left: 239rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 7rem;
+            left: 239rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 481rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-11 {
+        top: 0rem;
+        left: 426rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg14ToPg15 {
+        0% {
+            top: 0rem;
+            left: 481rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        20% {
+            top: 7rem;
+            left: 239rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        27% {
+            top: 7rem;
+            left: 239rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 7rem;
+            left: 8rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        70% {
+            top: 7rem;
+            left: 8rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 30rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-14 {
+        top: 0rem;
+        left: 481rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+    } 
+    
+    @keyframes tlAnimPg15ToPg16 {
+        0% {
+            top: 0rem;
+            left: 30rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        20% {
+            top: 7rem;
+            left: 8rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        27% {
+            top: 7rem;
+            left: 8rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 7rem;
+            left: 267rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        70% {
+            top: 7rem;
+            left: 267rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 535rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-15 {
+        top: 0rem;
+        left: 30rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    
+    @keyframes tlAnimPg1ToPg2 {
+        0% {
+            top: 0rem;
+            left: 666rem;
+            height: 37rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.2;
+        }
+        40% {
+            opacity: 1;
+        }
+        50% {
+            top: 9rem;
+            left: 301rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 9rem;
+            left: 301rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        100% {
+            top: 2rem;
+            left: 301rem;
+            height: 17rem;
+            opacity: 1;
+        }
+    }
+    
+    .tl-page-1 {
+        top: 0rem;
+        left: 666rem;
+        height: 37rem;
+        position: relative;
+        opacity: 0;
+        animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg1ToPg2 3s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg2ToPg3 {
+        0% {
+            top: 2rem;
+            height: 17rem;
+            left: 301rem;
+            opacity: 1;
+        }
+        40% {
+            opacity: 1;
+            top: 9rem;
+            height: 17rem;
+            left: 301rem;
+        }
+        50% {
+            top: 9rem;
+            height: 17rem;
+            left: 301rem;
+            opacity: 1;
+        }
+        60% {
+            opacity: 1;
+        }
+        95% {
+            opacity: 0.2;
+        }
+        100% {
+            top: 0rem;
+            left: 666rem;
+            height: 37rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-2 {
+        top: 2rem;
+        height: 17rem;
+        left: 301rem;
+        position: relative;
+        opacity: 1;
+        animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg2ToPg3 2s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg3ToPg4 {
+        0% {
+            top: 0rem;
+            left: 666rem;
+            height: 37rem;
+            opacity: 0;
+        }
+        20% {
+            top: 9rem;
+            left: 301rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        25% {
+            top: 9rem;
+            left: 301rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        70% {
+            top: 9rem;
+            left: 41rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        80% {
+            top: 9rem;
+            left: 41rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        100% {
+            top: 0rem;
+            left: 89rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-3 {
+        top: 0rem;
+        left: 666rem;
+        height: 37rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+        -webkit-animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+        -moz-animation: tlAnimPg3ToPg4 4.5s ease 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg4ToPg5 {
+        0% {
+            top: 0rem;
+            left: 89rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 9rem;
+            left: 41rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 9rem;
+            left: 41rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 9rem;
+            left: 68rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 9rem;
+            left: 68rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 143rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-4 {
+        top: 0rem;
+        left: 89rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg4ToPg5 3s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg5ToPg6 {
+        0% {
+            top: 0rem;
+            left: 143rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 9rem;
+            left: 68rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 9rem;
+            left: 68rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 9rem;
+            left: 97rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 9rem;
+            left: 97rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 197rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-5 {
+        top: 0rem;
+        left: 143rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg5ToPg6 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg6ToPg7 {
+        0% {
+            top: 0rem;
+            left: 197rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 9rem;
+            left: 97rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 9rem;
+            left: 97rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 9rem;
+            left: 125rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 9rem;
+            left: 125rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 251rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-6 {
+        top: 0rem;
+        left: 197rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg6ToPg7 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg7ToPg8 {
+        0% {
+            top: 0rem;
+            left: 251rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 9rem;
+            left: 125rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 9rem;
+            left: 125rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 9rem;
+            left: 152rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 9rem;
+            left: 152rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 306rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-7 {
+        top: 0rem;
+        left: 251rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg7ToPg8 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg8ToPg9 {
+        0% {
+            top: 0rem;
+            left: 306rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        10% {
+            opacity: 0.3;
+        }
+        35% {
+            top: 9rem;
+            left: 152rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        40% {
+            top: 9rem;
+            left: 152rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 9rem;
+            left: 180rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        75% {
+            top: 9rem;
+            left: 180rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        85% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 360rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-8 {
+        top: 0rem;
+        left: 306rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg8ToPg9 2.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg9ToPg10 {
+        0% {
+            top: 0rem;
+            left: 360rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 9rem;
+            left: 180rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 9rem;
+            left: 180rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 9rem;
+            left: 209rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 9rem;
+            left: 209rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 414rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    
+    .tl-page-9 {
+        top: 0rem;
+        left: 360rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg9ToPg10 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg10ToPg11 {
+        0% {
+            top: 0rem;
+            left: 414rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        10% {
+            opacity: 0.3;
+        }
+        35% {
+            top: 9rem;
+            left: 209rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        40% {
+            top: 9rem;
+            left: 209rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 9rem;
+            left: 218rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        75% {
+            top: 9rem;
+            left: 218rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        85% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 432rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-10 {
+        top: 0rem;
+        left: 414rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg10ToPg11 2.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg11ToPg12 {
+        0% {
+            top: 0rem;
+            left: 432rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        25% {
+            top: 9rem;
+            left: 218rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        30% {
+            top: 9rem;
+            left: 218rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        50% {
+            top: 9rem;
+            left: 245rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        65% {
+            top: 9rem;
+            left: 245rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 485rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-11 {
+        top: 0rem;
+        left: 432rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg11ToPg12 3.5s linear 1s 1 forwards;
+    }
+    
+    @keyframes tlAnimPg14ToPg15 {
+        0% {
+            top: 0rem;
+            left: 485rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        20% {
+            top: 9rem;
+            left: 245rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        27% {
+            top: 9rem;
+            left: 245rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 9rem;
+            left: 14rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        70% {
+            top: 9rem;
+            left: 14rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 36rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-14 {
+        top: 0rem;
+        left: 485rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg14ToPg15 4.5s linear 1s 1 forwards;
+    } 
+    
+    @keyframes tlAnimPg15ToPg16 {
+        0% {
+            top: 0rem;
+            left: 36rem;
+            height: 33rem;
+            opacity: 0;
+        }
+        5% {
+            opacity: 0.3;
+        }
+        20% {
+            top: 9rem;
+            left: 14rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        27% {
+            top: 9rem;
+            left: 14rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        60% {
+            top: 9rem;
+            left: 273rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        70% {
+            top: 9rem;
+            left: 273rem;
+            height: 17rem;
+            opacity: 1;
+        }
+        90% {
+            opacity: 0.3;
+        }
+        100% {
+            top: 0rem;
+            left: 540rem;
+            height: 33rem;
+            opacity: 0;
+        }
+    }
+    
+    .tl-page-15 {
+        top: 0rem;
+        left: 36rem;
+        height: 33rem;
+        opacity: 0;
+        position: relative;
+        animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+        -webkit-animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+        -moz-animation: tlAnimPg15ToPg16 4.5s linear 1s 1 forwards;
+    }
+}

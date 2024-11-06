@@ -1,0 +1,406 @@
+/* Centered content for .connect-question-container */
+.connect-question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 1500px;
+    padding: 1rem;
+    box-sizing: border-box;
+    position: relative;
+    margin: auto;
+    top: 4rem;
+}
+
+/* Smaller Question Text */
+#connect-question {
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+/* Container for the cards */
+.connect-card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+}
+
+/* Year and Event container styling */
+.connect-year-container, .connect-event-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+/* Card default styling */
+.connect-card {
+    width: 6rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.55rem;
+    padding: 0.4rem;
+    margin: 0.4rem;
+}
+
+/* Smaller cards for the second question */
+.large-connect-card {
+    width: 10rem;
+    height: auto;
+    font-size: 0.55rem;
+    text-align: center;
+    padding: 0.2rem;
+}
+
+.organizing-question-container {
+    position: relative;
+    top: 4rem;
+}
+
+/* Question text styling */
+#organizing-question {
+    margin-bottom: 1rem; /* Reduced margin for better centering */
+    font-size: 1rem; /* Original size */
+    text-align: center;
+    width: 100%; /* Full width for centering */
+}
+
+/* Drop zone container styling */
+.organizing-drop-zone-container {
+    display: flex;
+    justify-content: space-around; /* Space out the drop zones */
+    width: 100%; /* Set width for the container */
+    margin: 1rem 0; /* Added margin for spacing */
+}
+
+/* Drop zone styling */
+.organizing-drop-zone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start; /* Align items to the top */
+    width: 35%; /* Adjusted width of drop zones */
+    min-height: 4rem; /* Minimum height */
+    border: 2px solid #ccc; /* Solid border */
+    border-radius: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.9); /* Set background to white */
+    padding: 1rem 0.5rem; /* Added padding */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+}
+
+/* Word bank container styling */
+.organizing-word-bank {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 2px solid #ccc; /* Added border to word bank */
+    border-radius: 0.5rem; /* Rounded corners */
+    padding: 0.5rem; /* Added padding */
+    background-color: rgba(255, 255, 255, 0.7); /* Slight background color */
+    max-width: 70%; /* Set max width for word bank */
+    min-width: 40%; /* Minimum width to maintain size */
+    min-height: 2rem; /* Minimum height to maintain size */
+    align-items: center; /* Center items in the word bank */
+    margin-left: auto; /* Centering */
+    margin-right: auto; /* Centering */
+}
+
+/* Word bank item styling */
+.organizing-word {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0.5rem;
+    margin: 0.25rem;
+    cursor: grab;
+    font-size: 0.6rem; /* Smaller font size */
+    transition: background-color 0.3s ease;
+    width: calc(40% - 1rem); /* Width of each word, two items side by side */
+}
+
+.organizing-drop-zone .organizing-word {
+    width: calc(85% - 1rem);
+}
+
+/* Word hover effect */
+.organizing-word:hover {
+    background-color: rgba(200, 200, 200, 0.5);
+}
+
+/* Centered and scaled content inside .sentence-question-container */
+.sentence-question-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%; /* Slightly increased container width */
+    max-width: 1400px;
+    padding: 1rem;
+    box-sizing: border-box;
+    position: relative;
+    top: 4rem;
+    margin: auto
+}
+
+/* Adjusted Question Text */
+#sentence-question {
+    margin-bottom: 1rem;
+    font-size: 1rem; /* Reduced size */
+    text-align: center;
+}
+
+/* Sentence styling with drop zones */
+.sentence {
+    font-size: 1rem; /* Reduced font size */
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    line-height: 1.4;
+    width: 100%;
+    text-align: center;
+}
+
+/* Drop zone styling */
+.sentence-drop-zone {
+    display: inline-block;
+    width: 6rem; /* Reduced width */
+    height: 1.2rem; /* Reduced height */
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    margin: 0 0.3rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    vertical-align: middle;
+    font-size: 0.9rem; /* Reduced font size */
+    text-align: center;
+    line-height: 1.2rem;
+}
+
+/* Word bank container styling */
+.sentence-word-bank {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 2px solid #ccc;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    max-width: 1100px;
+    margin: 1rem 0;
+}
+
+/* Word styling inside word bank */
+.sentence-word {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0.6rem; /* Reduced padding */
+    margin: 0.4rem;
+    cursor: grab;
+    font-size: 0.7rem; /* Reduced font size */
+    transition: background-color 0.3s ease;
+}
+
+/* Question text styling */
+#choose-question {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem; /* Adjusted for a smaller look */
+    text-align: center;
+    width: 100%;
+}
+
+.choose-question-container {
+    position: relative;
+    top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container for the cards */
+.choose-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 82%;
+    align-items: stretch;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-bottom: 1.5rem;
+}
+
+/* Card default styling */
+.choose-card {
+    width: 7rem; /* Reduced width */
+    height: 4rem; /* Reduced height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    text-align: center;
+    font-size: 0.8rem; /* Smaller font size */
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+#multiple-question-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.multiple-question-title {
+    font-weight: 600;
+    padding-right: 1rem;
+}
+
+#multiple-ans-container {
+    margin: 1rem 0rem;
+}
+
+.multiple-answer {
+    text-align: center;
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 0.3rem;
+    margin-bottom: -0.2rem;
+    background-color: rgb(255, 255, 255, 0.5);
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+#american-question-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.american-question-title {
+    font-weight: 600;
+    padding-right: 1rem;
+}
+
+.american-answer {
+    text-align: center;
+    width: 20rem;
+    position: relative;
+    margin: 0.5rem;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 3rem;
+    padding: 0.2rem;
+    background-color: rgb(255, 255, 255, 0.5);
+}
+    
+#american-check-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Next button styling */
+#organizing-next-btn {
+        margin: 0.2rem auto;
+        display: none; /* Hide the button initially */
+        align-self: center; /* Center the button */
+    }
+
+    /* Check button styling */
+    #choose-check-btn {
+    display: block; /* Make sure button is a block element */
+    margin: 1rem auto; /* Center button */
+}
+
+#multiple-check-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Check button styling */
+#connect-check-btn {
+    margin-top: 0rem;
+}
+
+/* Next button styling */
+#sentence-next-btn {
+    display: none;
+    align-self: center;
+}
+
+#sentence-next-btn, 
+#connect-check-btn, 
+#multiple-check-btn,
+#choose-check-btn,
+#organizing-next-btn, 
+#american-check-btn {
+    font-family: "Assistant";
+    font-weight: 600;
+    border: 2px solid white;
+    border-radius: 3rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 0.75rem; /* Reduced font size */
+    padding: 0.4rem 1.2rem; /* Adjusted padding */
+    cursor: pointer;
+}
+
+.wrong {
+    border-color: rgb(252, 90, 90);
+    background-color: rgb(252, 90, 90, 0.5);
+}
+
+@keyframes blink {
+    0%, 100% { background-color: rgba(252, 90, 90, 0.5); border-color: rgb(252, 90, 90); }
+    50% { background-color: rgba(255, 255, 255, 0.5); border-color: white; }
+}
+
+.wrong-anim {
+    animation: blink 0.75s ease-in-out 3; /* 3 times of 0.75s */
+}
+
+.selected {
+    border-color: rgb(103, 169, 255);
+    background-color: rgb(103, 169, 255, 0.5);
+}
+
+.correct {
+    border-color: rgb(61, 223, 115);
+    background-color: rgb(61, 223, 115, 0.5);
+}
+
+.multiple-error {
+    position: relative;
+    top: 2rem;
+}
+
+/* Error message styling */
+.multiple-error, 
+.choose-error, 
+.connect-error {
+    color: red;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    display: none;
+    text-align: center;
+}

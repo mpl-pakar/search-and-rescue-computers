@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "Assistant";
+    src: url("assets/fonts/Assistant/Assistant-Regular.ttf");
+}
+
+html, body {
+    font-family: "Assistant";
+    font-size: calc(1vh + 1vw + 8px);
+    direction: rtl;
+    overflow: hidden;
+    text-align: right;
+}
+
+/* roles styling */
+.roles-text-page {
+    margin: 3.5rem 2rem 0rem 2rem;
+    height: calc(100vh - 7rem);
+}
+
+.next-arrow {
+    height: 1.5rem;
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.roles-text {
+    width: 20rem;
+    text-align: right;
+}
+
+.roles-img {
+    width: 19.1rem;
+    height: 12.9rem;
+    position: absolute;
+    left: 2rem;
+    top: 6.4rem;
+}
+
+.closed-card,
+.close-card-button,
+.next-arrow,
+.close-details-btn {
+    cursor: pointer;
+}
+
+.turkeyvid {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 8rem;
+    left: 50%;
+    width: 34rem;
+    height: 17rem;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+
+.buildingvid {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+    width: 24rem;
+    height: 14rem;
+    z-index: -1;
+}
+
+.daysvid {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+    width: 24rem;
+    height: 14rem;
+    z-index: -1;
+}
+
+.abachvid {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+    width: 24rem;
+    height: 14rem;
+    z-index: -1;
+}
+
+.batashvid {
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+    width: 24rem;
+    height: 14rem;
+    z-index: -1;
+}
+
+.routine-roles {
+    position: absolute;
+    right: 2rem;
+    top: 7rem;
+    width: 20rem;
+    user-select: auto;
+}
+
+.emergency-roles {
+    position: absolute;
+    left: 2rem;
+    top: 7rem;
+    width: 20rem;
+    user-select: auto;
+}
+
+#rolesErrorText {
+    top: 12rem;
+}
+
+.routine-roles .card {
+    background-color: rgb(201, 235, 201);
+}
+
+.emergency-roles .card {
+    background-color: rgb(245, 218, 223);
+}
+
+#routine-roles4  {
+    height: 5rem;
+}
+
+#routine-roles5  {
+    height: 7rem;
+}
+
+.black-frame {
+    position: absolute;
+    border: 2px solid black;
+    width: 1.5rem;
+    height: 1.5rem;
+    top: -0.2rem;
+    right: 0.2rem;
+}
+
+.roles-num {
+    position: absolute;
+    background-color: var(--active-background);
+    width: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+/* .infographic-text {
+    position: absolute;
+    margin-right: 2rem;
+    width: 15rem;
+    background-color: var(--active-background);
+    padding-right: 0.5rem;
+}
+
+.infographic-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 20rem;
+} */
+
+.polaroid {
+    width: 26.3rem;
+    position: absolute;
+    height: 18.8rem;
+    left: -0.24rem;
+    top: 3.89rem;
+}
+
+.tape {
+    position: absolute;
+    z-index: 5;
+    width: 2.5rem;
+    top: 3.5rem;
+    left: 10.5rem;
+}
+
+.carousel-control-prev {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.carousel-control-next {
+    -webkit-tap-highlight-color: transparent;
+}
+
+.active {
+    background-color: transparent;
+}

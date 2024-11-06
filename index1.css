@@ -1,0 +1,390 @@
+:root {
+    --background-white: #ffffff;
+    --colored-text: #ff8205;
+    --active-colored-text: #c55b10;
+    --timeline-buttom-backgroung: #f5c587;
+    --active-timeline-buttom-backgroung: #f5bd73;
+}
+
+@font-face {
+    font-family: "Assistant";
+    src: url("assets/fonts/Assistant/Assistant-Regular.ttf");
+}
+
+html, body {
+    font-family: "Assistant";
+    font-size: calc(1vh + 1vw + 8px);
+    direction: rtl;
+    overflow: hidden;
+    text-align: right;
+}
+
+body {
+    background-image: url("assets/images/background.svg");
+    background-size: 100vw 104vh;
+    background-repeat: no-repeat;
+    -webkit-tap-highlight-color: transparent;
+}   
+
+.loading-gapa {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 25rem;
+    top: 5rem;
+}
+
+.load-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 15rem;
+    padding-right: 3rem;
+}
+
+.Title_module_header__1d89a229 {
+    display: none;
+}
+
+/* elements that appear for all of the screens */
+#menu-btn {
+    position: absolute;
+    width: 2rem;
+    right: 1.5rem;
+    top: 1rem;
+}    
+
+#info-btn {
+    position: absolute;
+    width: 2rem;
+    right: 4.5rem;
+    top: 1rem;
+}    
+
+#ques-btn {
+    position: absolute;
+    width: 2rem;
+    right: 7.5rem;
+    top: 1rem;
+}
+
+#menu-btn, 
+#info-btn,
+#ques-btn {
+    z-index: 10;
+    opacity: 0;
+}
+
+#sym-hativa {
+    position: absolute;
+    width: 2.5rem;
+    left: 1rem;
+    top: 0.5rem;
+    opacity: 0;
+}
+
+#sym-gapa-unofficial {
+    position: absolute;
+    width: 2.5rem;
+    left: 4.5rem;
+    top: 0.5rem;
+    opacity: 0;
+}
+
+.close-window-btn {
+    width: 1.5rem;
+    z-index: 3;
+    position: relative;
+}     
+
+.title {
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: right;
+} 
+
+.line {
+    font-size: 1rem;
+}  
+
+.bold-txt {
+    font-weight: 600;
+}
+
+#symbols {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    padding: 0rem 3rem 0rem 1rem;
+    position: relative;
+    top: -2rem;
+}
+
+.symbol-gapa {
+    width: 2rem;
+    margin: 0rem 0.25rem 0rem 0.25rem;
+}
+
+.container {
+    background-color: var(--background-white);
+    padding: 1rem;
+    border-radius: 2rem;
+    width: 30rem;
+    height: 22rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 10;
+}
+
+.content-container {
+    position: relative;
+    margin: 2.5rem 0;
+    top: -1rem;
+}
+
+#timeline {
+    height: 100vh;
+}
+
+.timeline {
+    opacity: 0;
+}
+
+#page {
+    height: calc(100vh);
+    position: absolute;
+    top: 0rem;
+    width: 100vw;
+    z-index: 2;
+}
+
+.definition {
+    background-color: var(--background-white);
+    padding: 0.5rem;
+    border: solid 1px black;
+    border-radius: 0.5rem;
+    width: 10rem;
+    position: absolute;
+    z-index: 10;
+    margin-bottom: 0.3rem;
+}
+
+#def1-exp {
+    bottom: 14rem;
+    left: 22rem;
+}
+
+#def2-exp {
+    bottom: 10.5rem;
+    left: 26.5rem;
+    width: 12rem;
+}
+
+#def3-exp {
+    bottom: 8rem;
+    left: 2rem;
+    width: 18rem;
+}
+
+#def4-exp {
+    bottom: 13rem;
+    left: 29rem;
+    width: 12rem;
+}
+
+#def5-exp {
+    bottom: 9.5rem;
+    right: 3rem;
+    width: 18rem;
+}
+
+#def6-exp {
+    bottom: 10.5rem;
+    right: 3rem;
+    width: 18rem;
+}
+
+#def7-exp {
+    bottom: 10.5rem;
+    left: 7rem;
+    width: 13rem;
+}
+
+#def8-exp {
+    bottom: 10.5rem;
+    left: 7rem;
+    width: 13rem;
+}
+
+#def9-exp {
+    bottom: 11.5rem;
+    left: 6rem;
+    width: 12rem;
+}
+
+#def10-exp {
+    bottom: 7rem;
+    left: 6rem;
+    width: 12rem;
+}
+
+#def11-exp {
+    bottom: 6.5rem;
+    right: 10rem;
+    width: 13rem;
+}
+
+#def12-exp {
+    bottom: 6.5rem;
+    right: 12rem;
+}
+
+#def13-exp {
+    bottom: 6.5rem;
+    right: 14rem;
+}
+
+#def14-exp {
+    bottom: 6.5rem;
+    right: 17rem;
+}
+
+.close-def-btn {
+    width: 1rem;
+    z-index: 11;
+}
+
+.def-text {
+    font-size: 0.7rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.error {
+    color: red;
+    font-size: 0.6rem;
+    text-align: center;
+    width: inherit;
+    display: none;
+    margin-top: 0.5rem;
+    position: relative;
+    margin-top: 0.5rem;
+    top: -2.4rem;
+}
+
+.colored-text {
+    color: var(--colored-text);
+    text-decoration: underline;
+    text-decoration-thickness: 0.05rem;
+    position: relative;
+    z-index: 10;
+}
+
+.example-btn {
+    width: 2rem;
+    margin: 0.5rem 0.25rem 0rem 0.25rem;
+    position: relative;
+    z-index: 3;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -2rem;
+}
+
+.main-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 27rem;
+    padding-bottom: 2rem;
+}
+
+.subtitle {
+    font-weight: 600;
+    text-align: right;
+}
+
+.sub-title {
+    position: absolute;
+    font-weight: 600;
+    font-size: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 26rem;
+    top: 8rem;
+}
+
+.con-sen {
+    text-align: center;
+    position: absolute;
+    top: 6rem;
+    font-weight: 600;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#next-btn-22 {
+    bottom: 4rem;
+}
+
+.enabled-btn:hover {
+    cursor: pointer;
+}
+
+/* button cursor pointer */
+#menu-btn:hover, 
+#info-btn:hover,
+#ques-btn:hover,
+.close-window-btn:hover,
+#re-do-button:hover,
+.colored-text:hover,
+.close-def-btn:hover,
+.example-btn:hover {
+    cursor: pointer;
+}
+
+video {
+    outline: none;
+}
+
+.end-text {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 5rem;
+    width: 40rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+#re-do-button {
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 4rem;
+    width: 40rem;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.re-do-img {
+    width: 3rem;
+}

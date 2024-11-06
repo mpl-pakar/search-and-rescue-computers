@@ -1,0 +1,483 @@
+@font-face {
+    font-family: "Assistant";
+    src: url("assets/fonts/Assistant/Assistant-Regular.ttf");
+}
+
+html, body {
+    font-family: "Assistant";
+    font-size: calc(1vh + 1vw + 8px);
+    direction: rtl;
+    overflow: hidden;
+    text-align: right;
+}
+
+/* structure styling */
+.structure-text-page {
+    margin: 3.5rem 2rem 0rem 2rem;
+    height: calc(100vh - 7rem);
+}
+
+.structure-tree-img {
+    height: 20rem;
+    position: absolute;
+    left: 50%;
+    top: 4rem;
+    transform: translateX(-50%);
+}
+
+.st-structure {
+    height: 9.5rem;
+    position: absolute;
+    left: 58%;
+    top: 7.3rem;
+    transform: translateX(-50%);
+    display: none;
+    width: 26rem;
+}
+
+.st-hativa, 
+.st-baf,
+.st-bah,
+.st-matachim,
+.st-school,
+.st-gdudim {
+    position: absolute;
+    z-index: 3;
+    display: none;
+}
+
+.st-hativa:hover, 
+.st-baf:hover,
+.st-bah:hover,
+.st-matachim:hover,
+.st-school:hover,
+.st-gdudim:hover {
+    cursor: pointer;
+}
+
+.st-hativa {
+    top: 2rem;
+    width: 3rem;
+    left: 50.5%;
+    transform: translateX(-50%);
+}
+
+.st-baf {
+    top: 10rem;
+    width: 5rem;
+    left: 62.8%;
+    transform: translateX(10px);
+}
+
+.st-bah {
+    top: 10.3rem;
+    width: 3.9rem;
+    left: 82.3%;
+    transform: translateX(-50%);
+}
+
+.st-school {
+    top: 10.2rem;
+    width: 7rem;
+    left: 26.2%;
+    transform: translateX(10px);
+}
+
+
+
+.st-gdudim {
+    top: 17rem;
+    width: 18.5rem;
+    left: 51%;
+    transform: translateX(-50%);
+}
+
+.structure-details {
+    background-color: var(--background-white);
+    border-radius: 5rem;
+    width: 40rem;
+    height: 21rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 4rem;
+    z-index: 5;
+}
+
+.close-details-btn {
+    width: 1.5rem;
+    z-index: 3;
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+}  
+
+.details-title {
+    position: absolute;
+    top: 1.3rem;
+    right: 5rem;
+    font-size: 1.5rem;
+}
+
+.details-conteiner {
+    position: absolute;
+    text-align: right;
+    width: 33rem;
+    right: 5rem;
+    top: 4rem;
+}
+
+.details-text {
+    font-size: 0.8rem;
+}
+
+#hativa-details-img {
+    cursor: pointer;
+}
+
+.hativa-text {
+    position: absolute;
+    top: 3rem;
+    width: 32rem;
+    padding: 2rem;
+}
+
+.hativa-details-exp-text, .school-details-exp-text {
+    position: absolute;
+    top: 11rem;
+    font-size: 0.8rem;
+    color: red;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#hativa-sym-exp {
+    position: absolute;
+    width: 25rem;
+    top: 53%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.details-list {
+    list-style-type: circle;
+    margin-right: 1rem;
+    font-size: 0.8rem;
+}
+
+.details-img {
+    width: 3rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    margin: 1rem;
+}
+
+/* .matachim-img {
+    width: 4rem;
+} */
+
+#school-details-img {
+    width: 5rem;
+}
+
+.sub-sub-title {
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+
+.card {
+    background-color: #f8f3da;
+    width: 25rem;
+    height: 7rem;
+    padding: 0.5rem 2.5rem;
+}
+
+.carousel {
+    width: 25rem;
+    position: absolute;
+    left: -2rem;
+    top: 2.5rem;
+    z-index: 9;
+}
+
+#rescueCarousel {
+    width: 19rem;
+    position: absolute;
+    left: 2rem;
+    top: 6.5rem;
+    z-index: 3;
+}
+
+.card-text {
+    font-size: 0.7rem;
+    color: black;
+}
+
+.card-title {
+    font-size: 0.8rem;
+    color: black;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    width: 10%;
+}
+
+/* .prev-icon-card {
+    background-image: url("assets/images/carousel-prev-icon.svg");
+} */
+
+/* .next-icon-card {
+    background-image: url("assets/images/carousel-next-icon.svg");
+} */
+
+.close-card-button {
+    width: 1rem;
+    position: absolute;
+    z-index: 5;
+    top: 0.5rem;
+    right: 0.5rem;
+}
+
+.closed-card {
+    background-color: #f8f3da;
+    width: 7rem;
+    padding: 0.2rem 0.5rem;
+    transform: rotate(90deg);
+    position: absolute;
+    left: -4.52rem;
+    top: 5rem;
+}
+
+.closed-card-title {
+    padding-right: 1rem;
+}
+
+.closed-card-arrow {
+    width: 1rem;
+    transform: rotate(90deg);
+}
+
+.next-left {
+    left: 0rem;
+    bottom: -11rem;
+}
+
+.next-right {
+    left: 34rem;
+    transform: rotate(180deg);
+    bottom: 3rem;
+}
+
+.next-left, .next-right {
+    height: 1.5rem;
+    position: absolute;
+}
+
+.next-left:hover, .next-right:hover {
+    cursor: pointer;
+}
+
+#baf-details .details-img {
+    width: 5.5rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    margin: 1rem;
+}
+
+#bah-details .details-img {
+    width: 5rem;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    margin: 1rem;
+}
+
+#finished-structure {
+    bottom: 1.5rem;
+}
+
+.explain-structure {
+    text-align: center;
+    position: relative;
+    top: 20rem;
+    font-size: 0.8rem;
+    color: red;
+}
+
+.structure-details-gdud-shahar,
+.structure-details-gdud-tavor,
+.structure-details-gdud-kedem,
+.structure-details-gdud-ram {
+    width: 7rem;
+    position: absolute;
+    top: 4rem;
+}
+
+.structure-details-gdud-shahar {
+    left: 15.3rem;
+    opacity: 1;
+}
+
+.structure-details-gdud-tavor {
+    left: 27rem;
+    opacity: 0;
+}
+
+.structure-details-gdud-kedem {
+    left: 27rem;
+    opacity: 0;
+}
+
+.structure-details-gdud-ram {
+    left: 27rem;
+    opacity: 0;
+}
+
+.structure-details-gdud-shahar-exp,
+.structure-details-gdud-tavor-exp,
+.structure-details-gdud-kedem-exp,
+.structure-details-gdud-ram-exp {
+    position: absolute;
+    width: 18rem;
+}
+
+.structure-details-gdud-shahar-exp {
+    top: 2.8rem;
+    left: 9.9rem;
+    opacity: 0;
+}
+
+.structure-details-gdud-tavor-exp {
+    left: 9rem;
+    opacity: 0;
+}
+
+.structure-details-gdud-kedem-exp {
+    left: 8.5rem;
+    top: 0.8rem;
+    opacity: 0;
+}
+
+.structure-details-gdud-ram-exp {
+    left: 9rem;
+    opacity: 0;
+}
+
+#continue-gdudim-exp-next{
+    position: absolute;
+    top: 13rem;
+    width: 3rem;
+    left: 5rem;
+}
+
+#continue-gdudim-exp-next:hover {
+    cursor: pointer;
+}
+/* 
+#continue-gdudim-exp-prev {
+    transform: rotate(180deg);
+    right: 1rem;
+} */
+
+@keyframes showExp {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.show-exp {
+    opacity: 0;
+    animation: showExp 1s ease 0s 1 forwards;
+}
+
+@keyframes hideExp {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.hide-exp {
+    opacity: 1;
+    animation: hideExp 1s ease 0s 1 forwards;
+}
+
+/* hide and move from center to left */
+@keyframes hideGdudLeft {
+    0% {
+        opacity: 1;
+        left: 16.3rem;
+    }
+    100% {
+        opacity: 0;
+        left: 4rem;
+    }
+}
+
+.hide-gdud-left {
+    opacity: 1;
+    left: 16.3rem;
+    /* animation: hideGdud 1.5s ease 0s 1 forwards; */
+}
+
+/* hide and move from center to right */
+@keyframes hideGdudRight {
+    0% {
+        opacity: 1;
+        left: 16.3rem;
+    }
+    100% {
+        opacity: 0;
+        left: 27rem;
+    }
+}
+
+.hide-gdud-right {
+    opacity: 1;
+    left: 16.3rem;
+    animation: hideGdudRight 1.5s ease 0s 1 forwards;
+}
+
+/* show and move from left to center */
+@keyframes showGdudRight {
+    0% {
+        opacity: 0;
+        left: 4rem;
+    }
+    100% {
+        opacity: 1;
+        left: 15.3rem;
+    }
+}
+
+.show-gdud-right {
+    opacity: 0;
+    left: 4rem;
+    animation: showGdudRight 1.5s ease 0s 1 forwards;
+}
+
+/* show and move from right to center */
+@keyframes showGdudLeft {
+    0% {
+        opacity: 0;
+        left: 27rem;
+    }
+    100% {
+        opacity: 1;
+        left: 17.3rem;
+    }
+}
+
+.show-gdud-left {
+    opacity: 0;
+    left: 27rem;
+    animation: showGdudLeft 1.5s ease 0s 1 forwards;
+}
