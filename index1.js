@@ -1472,7 +1472,7 @@ var rolesCarousels = () => {
 }
 
 const removeRolesCarousels = () => {
-    if (routineNum.length >= 7 && emergencyNum.length >= 4) {
+    if (routineNum.length >= 6 && emergencyNum.length >= 4) {
         routineCar.style.display = "none";
         emergancyCar.style.display = "none";
         document.getElementById("roles-next-arrow").removeEventListener("click", removeRolesCarousels);
