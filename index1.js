@@ -774,7 +774,7 @@ let dropdownIcon;
 let activeDropdown = null; // Track the currently active dropdown
 let quesVisited = false;
 let currPage = 1;
-let furthestPageVisited = 41;
+let furthestPageVisited = 1;
 let currExpShown = "";
 let currDefShown = ""; // type string
 let currSchoolDetailsShown = "";
