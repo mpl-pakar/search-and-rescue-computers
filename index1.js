@@ -1157,7 +1157,7 @@ const addVideo = (vidList) => {
     setTimeout(() => {
         window[`page${currPage}VidFinished`] = true;
         createVidBnt();
-    }, 0);
+    }, vidList[1]);
     if (window[`page${currPage}VidFinished`]) {
         createVidBnt();
     }
